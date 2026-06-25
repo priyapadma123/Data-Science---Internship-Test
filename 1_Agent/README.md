@@ -55,9 +55,3 @@ streamlit run app.py
 - "Which products are close to running out of stock relative to opening stock?"
 - "What's the total value of all inventory currently on hand?"
 - "List products where units sold is more than half the opening stock."
-
-  a notebook.
-- **Why two separate tools instead of one**: keeps the agent's reasoning
-  explicit — it has to decide "is this a math/data question or a
-  knowledge/definition question?" rather than mixing concerns in one
-  do-everything tool.
