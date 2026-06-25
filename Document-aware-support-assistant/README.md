@@ -46,6 +46,12 @@ rag_assistant/
    billing (testing memory persists across switches), and two more topic
    switches (privacy, API).
 
+## Screenshots
+
+## Document Support Assistant
+![Assistant](Output_Screenshots/img1.png)
+![Assistant](Output_Screenshots/img2.png)
+
 ## Setup — completely free
 
 ```bash
