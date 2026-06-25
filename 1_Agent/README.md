@@ -23,7 +23,7 @@ not contained in the spreadsheet.
 ## Screenshots
 
 ![Agent - Interact with user](Output_Screenshots/img1.png)
-(Output_Screenshots/img2.png)
+!(Output_Screenshots/img2.png)
 
 ## Setup — completely free, no credit card
 
