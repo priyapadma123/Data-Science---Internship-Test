@@ -48,11 +48,6 @@ Chat UI:
 streamlit run app.py
 ```
 
-Or test in the terminal without the UI:
-```bash
-python3 agent.py
-```
-
 ## Example questions to demo
 
 - "Which 3 products have the highest total cost value?"
@@ -61,14 +56,6 @@ python3 agent.py
 - "What's the total value of all inventory currently on hand?"
 - "List products where units sold is more than half the opening stock."
 
-## Design notes (for the interview)
-
-- **Why a subprocess for query_data, not `exec()` in-process**: isolates the
-  agent's self-written code from the main app — a typo or runaway loop can't
-  take down the chat session, and it can't access anything outside the
-  inventory DataFrame.
-- **Why force `print()` instead of returning a value**: keeps the tool's
-  contract simple and matches how a human would sanity-check pandas output in
   a notebook.
 - **Why two separate tools instead of one**: keeps the agent's reasoning
   explicit — it has to decide "is this a math/data question or a
