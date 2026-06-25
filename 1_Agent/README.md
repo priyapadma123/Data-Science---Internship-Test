@@ -20,6 +20,11 @@ not contained in the spreadsheet.
   until Claude gives a final plain-English answer.
 - **app.py** — Streamlit chat UI on top of the agent.
 
+## Screenshots
+
+![Agent - Interact with user](Output_Screenshots/img1.png)
+(Output_Screenshots/img2.png)
+
 ## Setup — completely free, no credit card
 
 This uses **Groq** (console.groq.com) instead of a paid API. Groq's free tier
