@@ -38,7 +38,6 @@ Get a free key:
 Set it as an environment variable:
 
 ```bash
-export GROQ_API_KEY="gsk_..."          # macOS/Linux
 setx GROQ_API_KEY "gsk_..."            # Windows (then close & reopen terminal)
 ```
 
