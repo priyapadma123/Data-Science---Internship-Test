@@ -1,0 +1,69 @@
+{
+  "_note": "These values were read directly by visually reviewing each document. Use this to sanity-check the pipeline's actual output once you run it with your own Gemini API key.",
+  "01_aadhaar_card.png": {
+    "aadhaar_number": "1234 5678 9012",
+    "full_name": "Mr. Ashok",
+    "date_of_birth": "18/12/1979",
+    "address": "S/O Kumar, Kataia, West Bihar, India - 841543"
+  },
+  "02_pan_card.png": {
+    "pan_number": "ABCDE1234F",
+    "full_name": "MR. ASHOK",
+    "fathers_name": "S/O KUMAR",
+    "date_of_birth": "18/12/1979"
+  },
+  "03_driving_licence.png": {
+    "dl_number": "MH12 2021 0001234",
+    "name": "MR. ASHOK",
+    "date_of_issue": "15/06/2021",
+    "valid_till": "14/06/2041"
+  },
+  "04_passport.png": {
+    "passport_number": "X1234567",
+    "date_of_birth": "18/12/1979",
+    "date_of_expiry": "01/01/2030",
+    "mrz_line_2": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<<08"
+  },
+  "05_nach_ecs_mandate.jpeg": {
+    "bank_account_number": "31004258912",
+    "ifsc_code": "SBIN0227112",
+    "bank_name": "State Bank of India",
+    "amount_figures": "50,000",
+    "frequency": "As & when presented (Maximum Amount, not Fixed Amount)"
+  },
+  "06_fatca_annexure.jpeg": {
+    "policy_number": "1500137601025",
+    "tin_pan": "BPQPD3051R",
+    "fathers_name": "Arjun Das Kumar",
+    "place_of_birth": "West Bihar",
+    "nationality": "Indian"
+  },
+  "07_benefit_illustration.jpeg": {
+    "application_number": "1500137601025",
+    "policyholder_name": "Ashok",
+    "date": "26/04/2026",
+    "place": "West Bihar"
+  },
+  "08_moral_hazard_questionnaire.jpeg": {
+    "application_number": "1500137601025",
+    "name_of_life_assured": "Ashok",
+    "nominee_relationship": "Nephew",
+    "date": "26/04/2026",
+    "place": "West Bihar"
+  },
+  "09_multiple_policies_consent.jpeg": {
+    "proposer_name": "Ashok",
+    "reason_for_multiple_policies": "Financial Planning (viz. payout on different life stages, different payment terms, etc.)",
+    "date": "26/04/2026",
+    "place": "West Bihar"
+  },
+  "10_suitability_profiler.jpeg": {
+    "application_number": "1500137601025",
+    "name_of_life_assured": "Ashok",
+    "name_of_agent_sp": "Ramesh Kumar",
+    "date": "26/04/2026",
+    "place": "West Bihar"
+  },
+  "11_extra_proposal_form.pdf": "Not one of the 10 required types - this is an Application/Proposal Form, should be classified as 'unsupported' and skipped/flagged",
+  "12_extra_assignment_form.pdf": "Not one of the 10 required types - this is an Assignment Request Form, should be classified as 'unsupported' and skipped/flagged"
+}
