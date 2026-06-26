@@ -1,0 +1,35 @@
+{
+  "file": "09_multiple_policies_consent.jpeg",
+  "document_type": "multiple_policies_consent",
+  "type_confidence": 1.0,
+  "is_handwritten_type": true,
+  "fields": {
+    "proposer_name": {
+      "value": "Ashok",
+      "confidence": 0.95,
+      "legible": true,
+      "validation_note": null
+    },
+    "reason_for_multiple_policies": {
+      "value": "Financial Planning (viz. payout on different life stages, different payment terms, etc.)",
+      "confidence": 0.98,
+      "legible": true,
+      "validation_note": null
+    },
+    "date": {
+      "value": "26/04/2026",
+      "confidence": 0.95,
+      "legible": true,
+      "validation_note": null
+    },
+    "place": {
+      "value": "West Bihar.",
+      "confidence": 0.95,
+      "legible": true,
+      "validation_note": null
+    }
+  },
+  "flagged_fields": [],
+  "document_flagged_for_review": false,
+  "flag_reason": null
+}

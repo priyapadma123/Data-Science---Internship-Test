@@ -1,0 +1,41 @@
+{
+  "file": "08_moral_hazard_questionnaire.jpeg",
+  "document_type": "moral_hazard_questionnaire",
+  "type_confidence": 1.0,
+  "is_handwritten_type": true,
+  "fields": {
+    "application_number": {
+      "value": "1500137601025",
+      "confidence": 0.95,
+      "legible": true,
+      "validation_note": null
+    },
+    "name_of_life_assured": {
+      "value": "Ashok",
+      "confidence": 0.95,
+      "legible": true,
+      "validation_note": null
+    },
+    "nominee_relationship": {
+      "value": "Nephew",
+      "confidence": 0.9,
+      "legible": true,
+      "validation_note": null
+    },
+    "date": {
+      "value": "24/04/2026",
+      "confidence": 0.9,
+      "legible": true,
+      "validation_note": null
+    },
+    "place": {
+      "value": "West Bihar",
+      "confidence": 0.9,
+      "legible": true,
+      "validation_note": null
+    }
+  },
+  "flagged_fields": [],
+  "document_flagged_for_review": false,
+  "flag_reason": null
+}

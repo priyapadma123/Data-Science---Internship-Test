@@ -1,0 +1,42 @@
+{
+  "file": "04_passport.png",
+  "document_type": "passport",
+  "type_confidence": 1.0,
+  "is_handwritten_type": false,
+  "fields": {
+    "passport_number": {
+      "value": "X1234567",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "date_of_birth": {
+      "value": "18/12/1979",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "date_of_expiry": {
+      "value": "01/01/2030",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "mrz_line_2": {
+      "value": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<<<<<08",
+      "confidence": 0.4,
+      "legible": true,
+      "validation_note": "Value 'X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<<<<<08' does not match expected format for mrz_line_2"
+    }
+  },
+  "flagged_fields": [
+    {
+      "field": "mrz_line_2",
+      "value": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<<<<<08",
+      "confidence": 0.4,
+      "reason": "Value 'X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<<<<<08' does not match expected format for mrz_line_2"
+    }
+  ],
+  "document_flagged_for_review": true,
+  "flag_reason": "1 field(s) below confidence threshold"
+}

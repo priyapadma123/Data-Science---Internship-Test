@@ -1,0 +1,35 @@
+{
+  "file": "07_benefit_illustratio.jpeg",
+  "document_type": "benefit_illustration_declaration",
+  "type_confidence": 1.0,
+  "is_handwritten_type": true,
+  "fields": {
+    "application_number": {
+      "value": "1500137601025",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "policyholder_name": {
+      "value": "Ashok",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "date": {
+      "value": "28/04/2026",
+      "confidence": 0.9,
+      "legible": true,
+      "validation_note": null
+    },
+    "place": {
+      "value": "West Bengal",
+      "confidence": 0.8,
+      "legible": true,
+      "validation_note": null
+    }
+  },
+  "flagged_fields": [],
+  "document_flagged_for_review": false,
+  "flag_reason": null
+}

@@ -1,0 +1,48 @@
+{
+  "file": "06_fatca_annexure.jpeg",
+  "document_type": "fatca_annexure",
+  "type_confidence": 1.0,
+  "is_handwritten_type": true,
+  "fields": {
+    "policy_number": {
+      "value": "1500137601025",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "tin_pan": {
+      "value": "BPQPD 3051R",
+      "confidence": 0.4,
+      "legible": true,
+      "validation_note": "Value 'BPQPD 3051R' does not match expected format for tin_pan"
+    },
+    "fathers_name": {
+      "value": "Arjun Das Kumar",
+      "confidence": 0.9,
+      "legible": true,
+      "validation_note": null
+    },
+    "place_of_birth": {
+      "value": "West Bihar",
+      "confidence": 0.9,
+      "legible": true,
+      "validation_note": null
+    },
+    "nationality": {
+      "value": "Indian",
+      "confidence": 0.9,
+      "legible": true,
+      "validation_note": null
+    }
+  },
+  "flagged_fields": [
+    {
+      "field": "tin_pan",
+      "value": "BPQPD 3051R",
+      "confidence": 0.4,
+      "reason": "Value 'BPQPD 3051R' does not match expected format for tin_pan"
+    }
+  ],
+  "document_flagged_for_review": true,
+  "flag_reason": "1 field(s) below confidence threshold"
+}

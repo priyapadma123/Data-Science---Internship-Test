@@ -1,0 +1,35 @@
+{
+  "file": "03_driving_licence.png",
+  "document_type": "driving_licence",
+  "type_confidence": 1.0,
+  "is_handwritten_type": false,
+  "fields": {
+    "dl_number": {
+      "value": "MH12 2021 0001234",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "name": {
+      "value": "MR. ASHOK",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "date_of_issue": {
+      "value": "15/06/2021",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    },
+    "valid_till": {
+      "value": "14/06/2041",
+      "confidence": 1.0,
+      "legible": true,
+      "validation_note": null
+    }
+  },
+  "flagged_fields": [],
+  "document_flagged_for_review": false,
+  "flag_reason": null
+}
