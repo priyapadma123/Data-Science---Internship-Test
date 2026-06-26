@@ -29,14 +29,6 @@ doc_extraction_pipeline/
 └── output/                   # generated after running - one JSON per doc + flagging report
 ```
 
-## Why Gemini, not Groq
-
-Groq's only free vision-capable models (Llama 4 Scout/Maverick) were
-deprecated, and their official replacement (`gpt-oss-120b`) doesn't accept
-image input at all. Google Gemini's free tier (via Google AI Studio) is
-genuinely free, permanent, no credit card, and multimodal - so it's used here
-for the vision/extraction step instead.
-
 ## Setup
 
 ```bash
@@ -62,6 +54,11 @@ see below), printing progress, then writes:
 - `output/flagging_report.json` / `.md` - everything that needs human review, in one place
 
 Compare against `ground_truth_reference.json` to check real-world accuracy.
+
+## Screenshots
+
+![Document extraction](Output_Screenshots/img1.png)
+![Document extraction](Output_Screenshots/img2.png)
 
 ## How classification + extraction works
 
@@ -136,13 +133,3 @@ confidence for the hardest fields.
   better demonstration of robustness than simply excluding them. Worth
   mentioning in the interview as a known limitation you're aware of, not
   something you missed.
-
-## Note for the interview
-
-This pipeline does classification and extraction in a single LLM call per
-document rather than a traditional OCR engine, because handwriting accuracy
-on generic OCR (Tesseract, etc.) is poor compared to a vision-capable LLM -
-that tradeoff is deliberate, not a shortcut. The regex layer exists
-specifically because LLM self-reported confidence is known to be poorly
-calibrated on its own; combining it with independent format checks is more
-defensible than trusting either signal alone.
